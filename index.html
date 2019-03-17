@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="block-types">
+        <div class="type" id="type1" rel="popup1">
+            <img src="images/device.svg" width="100" height="100">
+            <h4>MOBILE</h4>
+            <p>Get notifications about new releases in our mobile app</p>
+            <p class="price"><sup>$</sup>10<sub>/month</sub></p>
+        </div>
+        <div class="type" id="type2" rel="popup2">
+            <img src="images/laptop.svg" width="100" height="100">
+            <h4>DESKTOP</h4>
+            <p>Enjoy new episodes on your laptop in browser with our web service, which supports all the platforms</p>
+            <p class="price"><sup>$</sup>15<sub>/month</sub></p>
+        </div>
+        <div class="type" id="type3" rel="popup3">
+            <img src="images/monitor.svg" width="100" height="100">
+            <h4>TV</h4>
+            <p>Watch your favorite series at home on large screen with our TV application</p>
+            <p class="price"><sup>$</sup>20<sub>/month</sub></p>
+        </div>
+        <button class="button">
+            <p>Give feedback</p>
+        </button>
+    </div>
+    <div class="overlay_popup"></div>
+    <div class="popup" id="popup1">
+        <span class="confirmation">Confirmation</span>
+        <img src="images/cross.svg" width="20" height="20" class="cross">
+        <form action="" method="">
+            <img src="images/device.svg" width="100" height="100">
+            <h4>MOBILE</h4>
+            <p>Get notifications about new releases in our mobile app</p>
+            <p class="price"><sup>$</sup>10<sub>/month</sub></p>
+            <button>
+                <p>Confirm and pay</p>
+            </button>
+        </form>
+    </div>
+    <div class="popup" id="popup2">
+        <span class="confirmation">Confirmation</span>
+        <img src="images/cross.svg" width="20" height="20" class="cross">
+        <form action="" method="">
+            <img src="images/laptop.svg" width="100" height="100">
+            <h4>DESKTOP</h4>
+            <p>Enjoy new episodes on your laptop in browser with our web service, which supports all the platforms</p>
+            <p class="price"><sup>$</sup>15<sub>/month</sub></p>
+            <button>
+                <p>Confirm and pay</p>
+            </button>
+        </form>
+    </div>
+    <div class="popup" id="popup3">
+        <span class="confirmation">Confirmation</span>
+        <img src="images/cross.svg" width="20" height="20" class="cross">
+        <form action="" method="">
+            <img src="images/monitor.svg" width="100" height="100">
+            <h4>TV</h4>
+            <p>Watch your favorite series at home on large screen with our TV application</p>
+            <p class="price"><sup>$</sup>20<sub>/month</sub></p>
+            <button>
+                <p>Confirm and pay</p>
+            </button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
